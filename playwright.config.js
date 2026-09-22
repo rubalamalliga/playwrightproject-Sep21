@@ -20,7 +20,7 @@ dotenv.config({ path: path.resolve(__dirname, 'qa.env') });
  *  https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  testDir : "tests/APItest/",
+  testDir : "tests/UItest/",
   //testDir: './tests',
   //api
 
