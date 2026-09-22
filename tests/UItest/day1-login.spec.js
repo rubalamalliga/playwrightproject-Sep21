@@ -24,7 +24,7 @@ await page.locator('[id="submit"]').click()
 //sucessfull page
 await expect(page.locator('[class="post-title"]')).toBeVisible()
 
-await page.pause()
+//await page.pause()
 
 })
 
